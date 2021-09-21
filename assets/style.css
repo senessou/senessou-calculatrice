@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+    height: 95vh;
+}
+#cadre {
+    border: 1px black solid;
+    width: 400px;
+    height: 400px;
+}
+#ecran {
+    margin: 20px 15px 0 15px;
+    width: 370px;
+    height: 60px;
+    border: 1px black solid;
+    text-align: right;
+    font-size: 40px;
+}
+
+input {
+    margin: 10px;
+    height: 50px;
+}
+
+#bouton {
+    margin: 10px 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
